@@ -1,0 +1,65 @@
+﻿@using COMP2139_KRN_GENIUS.Models.ViewModels
+@model IncidentViewModel
+@{
+    ViewData["Title"] = $"Edit Incident";
+}
+
+<section id="edit">
+    <div id="edit-page">
+        <div class="edit-title">
+            <h1>Edit Incident</h1>
+            <h6>To save the information of Incident, Click [ Save ]</h6>
+        </div>
+        <div class="edit-form">
+            <form asp-action="Edit" method="POST">
+
+                <div class="edit-input">
+                    <label class="form-label">Technician:</label>
+                    <span>@Model.Technician.Name</span>
+					<input type="hidden" asp-for="Incident.TechnicianId" value="@Context.Session.GetInt32("techId")"/>
+                </div>
+                <div class="edit-input">
+                    <label class="form-label">Customer:</label>
+                    <span>@Model.Customer.FirstName @Model.Customer.LastName</span>
+					<input type="hidden" asp-for="Incident.CustomerId" value="@Model.Incident.CustomerId"/>
+                </div>
+                <div class="edit-input">
+                    <label class="form-label">Product:</label>
+                    <span>@Model.Product.Name</span>
+					<input type="hidden" asp-for="Incident.ProductId" value="@Model.Incident.ProductId"/>
+                </div>
+                <div class="edit-input">
+                    <label class="form-label">Title:</label>
+                    <span>@Model.Incident.Title</span>
+					<input type="hidden" asp-for="Incident.Title" value="@Model.Incident.Title"/>
+                </div>
+                <div class="edit-input">
+                    <label class="form-label">Date Opened:</label>
+                    <span>@Model.Incident.DateOpened?.ToString("MM/dd/yyyy HH:mm:ss tt")</span>
+					<input type="hidden" asp-for="Incident.DateOpened" value="@Model.Incident.DateOpened"/>
+                </div>
+
+                <div class="edit-input">
+                    <label asp-for="Incident.Description" class="form-label">Description</label>
+                    <input asp-for="Incident.Description" type="text" class="form-control" value="@Model.Incident.Description"><br>
+                </div>
+
+                <div class="edit-alert">
+					@Html.ValidationMessage("Incident.Description")
+                </div>
+
+                <div class="edit-input">
+                    <label asp-for="Incident.DateClosed" class="form-label">Date Closed</label>
+                    <input asp-for="Incident.DateClosed" type="datetime-local" class="form-control" value="@Model.Incident.DateClosed?.ToString("yyyy-MM-ddTHH:mm")"><br>
+                </div>
+
+                <input type="hidden" asp-for="Incident.IncidentId"/>
+
+                <div class="edit-btn">
+                    <button class="edit-save" type="submit">Save</button>
+                    <a asp-action="List" asp-route-id="@Context.Session.GetInt32("techId")">Cancel</a>
+                </div>
+            </form>
+        </div>
+    </div>
+</section>

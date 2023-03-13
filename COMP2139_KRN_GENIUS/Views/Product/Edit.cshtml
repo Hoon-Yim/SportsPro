@@ -1,0 +1,60 @@
+﻿@model Product
+@{
+    ViewData["Title"] = "Edit Product";
+
+    DateTime? date = Model.Date;
+
+    if (ViewBag.Action == "Add")
+        date = DateTime.Now;
+}
+
+<section id="edit">
+    <div id="edit-page">
+        <div class="edit-title">
+            <h1>@ViewBag.Action Product</h1>
+            <h6>To save the information of Product, Click [ Save ]</h6>
+        </div>
+        <div class="edit-form">
+            <form asp-action="Edit" method="POST">
+                <div class="edit-input">
+                    <label asp-for="Code">Code</label>
+                    <input asp-for="Code" type="text" value="@Model.Code"><br>
+                </div>
+
+                <div class="edit-alert">
+					@Html.ValidationMessage("Code")
+                </div>
+
+                <div class="edit-input">
+                    <label asp-for="Name">Name</label>
+                    <input asp-for="Name" type="text" value="@Model.Name"><br>
+                </div>
+                
+                <div class="edit-alert">
+					@Html.ValidationMessage("Name")
+                </div>
+
+                <div class="edit-input">
+                    <label asp-for="YearlyPrice">Yearly Price</label>
+                    <input asp-for="YearlyPrice" type="number" value="@Model.YearlyPrice" step=".01"/><br>
+                </div>
+
+                <div class="edit-alert">
+					@Html.ValidationMessage("YearlyPrice")
+                </div>
+
+                <div class="edit-input">
+                    <label asp-for="Date">Release Date</label>
+                    <input asp-for="Date" type="datetime-local" value="@date?.ToString("yyyy-MM-ddTHH:mm")"><br>
+                </div>
+
+                <input type="hidden" asp-for="ProductId"/>
+
+                <div class="edit-btn">
+                    <button class="edit-save" type="submit">Save</button>
+                    <a asp-action="List">Cancel</a>
+                </div>
+            </form>
+        </div>
+    </div>
+</section>

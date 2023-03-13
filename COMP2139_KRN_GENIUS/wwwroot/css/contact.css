@@ -1,0 +1,76 @@
+﻿/* ------------- Contact section ------------- */
+
+#cont {
+    display: flex;
+    justify-content: center;
+    background-color: #101010;
+    padding: 100px 200px;
+}
+
+#cont-page {
+    text-align: center;
+}
+
+.cont-title {
+    margin: 35px 0;
+}
+.cont-title h1 {
+    color: #fff;
+    font-size: 40pt;
+    font-weight: 700;
+}
+
+.cont-title p {
+    color: #fff;
+    font-size: 14pt;
+}
+
+.cont-row {
+    padding: 60px 0;
+    margin-bottom: 15px;
+    display: flex;
+}
+
+.team-info {
+    margin: 0 40px;
+}
+
+.team-info h2 {
+    color: #fff;
+    font-weight: 700;
+    font-size: 24pt;
+}
+
+.team-info h5 {
+    color: #fff;
+    margin-top: 15px;
+    font-size: 16pt;
+}
+
+.team-img {
+    border-radius: 50%;
+    height: 250px;
+}
+
+.team-desc {
+    margin: 50px 0;
+}
+
+.sns-icons {
+    margin-top: 20px;
+    display: table;
+}
+
+.sns-icons img {
+    height: 60px;
+}
+
+.sns-icons ul {
+    padding-left: 0;
+}
+
+.sns-icons ul li {
+    list-style: none;
+    float: left;
+    margin: 0 15px;
+}

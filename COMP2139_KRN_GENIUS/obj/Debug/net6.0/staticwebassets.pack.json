@@ -1,0 +1,537 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\yimsh\\.nuget\\packages\\bootstrap\\5.1.3\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap-grid.css",
+      "PackagePath": "staticwebassets\\css\\bootstrap-grid.css"
+    },
+    {
+      "Id": "C:\\Users\\yimsh\\.nuget\\packages\\bootstrap\\5.1.3\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap-grid.css.map",
+      "PackagePath": "staticwebassets\\css\\bootstrap-grid.css.map"
+    },
+    {
+      "Id": "C:\\Users\\yimsh\\.nuget\\packages\\bootstrap\\5.1.3\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap-grid.min.css",
+      "PackagePath": "staticwebassets\\css\\bootstrap-grid.min.css"
+    },
+    {
+      "Id": "C:\\Users\\yimsh\\.nuget\\packages\\bootstrap\\5.1.3\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap-grid.min.css.map",
+      "PackagePath": "staticwebassets\\css\\bootstrap-grid.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\yimsh\\.nuget\\packages\\bootstrap\\5.1.3\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap-grid.rtl.css",
+      "PackagePath": "staticwebassets\\css\\bootstrap-grid.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\yimsh\\.nuget\\packages\\bootstrap\\5.1.3\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap-grid.rtl.css.map",
+      "PackagePath": "staticwebassets\\css\\bootstrap-grid.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\yimsh\\.nuget\\packages\\bootstrap\\5.1.3\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap-grid.rtl.min.css",
+      "PackagePath": "staticwebassets\\css\\bootstrap-grid.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\yimsh\\.nuget\\packages\\bootstrap\\5.1.3\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap-grid.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\css\\bootstrap-grid.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\yimsh\\.nuget\\packages\\bootstrap\\5.1.3\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap-reboot.css",
+      "PackagePath": "staticwebassets\\css\\bootstrap-reboot.css"
+    },
+    {
+      "Id": "C:\\Users\\yimsh\\.nuget\\packages\\bootstrap\\5.1.3\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap-reboot.css.map",
+      "PackagePath": "staticwebassets\\css\\bootstrap-reboot.css.map"
+    },
+    {
+      "Id": "C:\\Users\\yimsh\\.nuget\\packages\\bootstrap\\5.1.3\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap-reboot.min.css",
+      "PackagePath": "staticwebassets\\css\\bootstrap-reboot.min.css"
+    },
+    {
+      "Id": "C:\\Users\\yimsh\\.nuget\\packages\\bootstrap\\5.1.3\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap-reboot.min.css.map",
+      "PackagePath": "staticwebassets\\css\\bootstrap-reboot.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\yimsh\\.nuget\\packages\\bootstrap\\5.1.3\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap-reboot.rtl.css",
+      "PackagePath": "staticwebassets\\css\\bootstrap-reboot.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\yimsh\\.nuget\\packages\\bootstrap\\5.1.3\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap-reboot.rtl.css.map",
+      "PackagePath": "staticwebassets\\css\\bootstrap-reboot.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\yimsh\\.nuget\\packages\\bootstrap\\5.1.3\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap-reboot.rtl.min.css",
+      "PackagePath": "staticwebassets\\css\\bootstrap-reboot.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\yimsh\\.nuget\\packages\\bootstrap\\5.1.3\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap-reboot.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\css\\bootstrap-reboot.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\yimsh\\.nuget\\packages\\bootstrap\\5.1.3\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap-utilities.css",
+      "PackagePath": "staticwebassets\\css\\bootstrap-utilities.css"
+    },
+    {
+      "Id": "C:\\Users\\yimsh\\.nuget\\packages\\bootstrap\\5.1.3\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap-utilities.css.map",
+      "PackagePath": "staticwebassets\\css\\bootstrap-utilities.css.map"
+    },
+    {
+      "Id": "C:\\Users\\yimsh\\.nuget\\packages\\bootstrap\\5.1.3\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap-utilities.min.css",
+      "PackagePath": "staticwebassets\\css\\bootstrap-utilities.min.css"
+    },
+    {
+      "Id": "C:\\Users\\yimsh\\.nuget\\packages\\bootstrap\\5.1.3\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap-utilities.min.css.map",
+      "PackagePath": "staticwebassets\\css\\bootstrap-utilities.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\yimsh\\.nuget\\packages\\bootstrap\\5.1.3\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap-utilities.rtl.css",
+      "PackagePath": "staticwebassets\\css\\bootstrap-utilities.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\yimsh\\.nuget\\packages\\bootstrap\\5.1.3\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap-utilities.rtl.css.map",
+      "PackagePath": "staticwebassets\\css\\bootstrap-utilities.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\yimsh\\.nuget\\packages\\bootstrap\\5.1.3\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap-utilities.rtl.min.css",
+      "PackagePath": "staticwebassets\\css\\bootstrap-utilities.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\yimsh\\.nuget\\packages\\bootstrap\\5.1.3\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap-utilities.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\css\\bootstrap-utilities.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\yimsh\\.nuget\\packages\\bootstrap\\5.1.3\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap.css",
+      "PackagePath": "staticwebassets\\css\\bootstrap.css"
+    },
+    {
+      "Id": "C:\\Users\\yimsh\\.nuget\\packages\\bootstrap\\5.1.3\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap.css.map",
+      "PackagePath": "staticwebassets\\css\\bootstrap.css.map"
+    },
+    {
+      "Id": "C:\\Users\\yimsh\\.nuget\\packages\\bootstrap\\5.1.3\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "C:\\Users\\yimsh\\.nuget\\packages\\bootstrap\\5.1.3\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\css\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\yimsh\\.nuget\\packages\\bootstrap\\5.1.3\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap.rtl.css",
+      "PackagePath": "staticwebassets\\css\\bootstrap.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\yimsh\\.nuget\\packages\\bootstrap\\5.1.3\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap.rtl.css.map",
+      "PackagePath": "staticwebassets\\css\\bootstrap.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\yimsh\\.nuget\\packages\\bootstrap\\5.1.3\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap.rtl.min.css",
+      "PackagePath": "staticwebassets\\css\\bootstrap.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\yimsh\\.nuget\\packages\\bootstrap\\5.1.3\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\css\\bootstrap.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\yimsh\\.nuget\\packages\\bootstrap\\5.1.3\\contentFiles\\any\\any\\wwwroot\\js\\bootstrap.bundle.js",
+      "PackagePath": "staticwebassets\\js\\bootstrap.bundle.js"
+    },
+    {
+      "Id": "C:\\Users\\yimsh\\.nuget\\packages\\bootstrap\\5.1.3\\contentFiles\\any\\any\\wwwroot\\js\\bootstrap.bundle.js.map",
+      "PackagePath": "staticwebassets\\js\\bootstrap.bundle.js.map"
+    },
+    {
+      "Id": "C:\\Users\\yimsh\\.nuget\\packages\\bootstrap\\5.1.3\\contentFiles\\any\\any\\wwwroot\\js\\bootstrap.bundle.min.js",
+      "PackagePath": "staticwebassets\\js\\bootstrap.bundle.min.js"
+    },
+    {
+      "Id": "C:\\Users\\yimsh\\.nuget\\packages\\bootstrap\\5.1.3\\contentFiles\\any\\any\\wwwroot\\js\\bootstrap.bundle.min.js.map",
+      "PackagePath": "staticwebassets\\js\\bootstrap.bundle.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\yimsh\\.nuget\\packages\\bootstrap\\5.1.3\\contentFiles\\any\\any\\wwwroot\\js\\bootstrap.esm.js",
+      "PackagePath": "staticwebassets\\js\\bootstrap.esm.js"
+    },
+    {
+      "Id": "C:\\Users\\yimsh\\.nuget\\packages\\bootstrap\\5.1.3\\contentFiles\\any\\any\\wwwroot\\js\\bootstrap.esm.js.map",
+      "PackagePath": "staticwebassets\\js\\bootstrap.esm.js.map"
+    },
+    {
+      "Id": "C:\\Users\\yimsh\\.nuget\\packages\\bootstrap\\5.1.3\\contentFiles\\any\\any\\wwwroot\\js\\bootstrap.esm.min.js",
+      "PackagePath": "staticwebassets\\js\\bootstrap.esm.min.js"
+    },
+    {
+      "Id": "C:\\Users\\yimsh\\.nuget\\packages\\bootstrap\\5.1.3\\contentFiles\\any\\any\\wwwroot\\js\\bootstrap.esm.min.js.map",
+      "PackagePath": "staticwebassets\\js\\bootstrap.esm.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\yimsh\\.nuget\\packages\\bootstrap\\5.1.3\\contentFiles\\any\\any\\wwwroot\\js\\bootstrap.js",
+      "PackagePath": "staticwebassets\\js\\bootstrap.js"
+    },
+    {
+      "Id": "C:\\Users\\yimsh\\.nuget\\packages\\bootstrap\\5.1.3\\contentFiles\\any\\any\\wwwroot\\js\\bootstrap.js.map",
+      "PackagePath": "staticwebassets\\js\\bootstrap.js.map"
+    },
+    {
+      "Id": "C:\\Users\\yimsh\\.nuget\\packages\\bootstrap\\5.1.3\\contentFiles\\any\\any\\wwwroot\\js\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\js\\bootstrap.min.js"
+    },
+    {
+      "Id": "C:\\Users\\yimsh\\.nuget\\packages\\bootstrap\\5.1.3\\contentFiles\\any\\any\\wwwroot\\js\\bootstrap.min.js.map",
+      "PackagePath": "staticwebassets\\js\\bootstrap.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\yimsh\\OneDrive\\Desktop\\COMP2139_KRN_GENIUS\\COMP2139_KRN_GENIUS\\COMP2139_KRN_GENIUS\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\COMP2139_KRN_GENIUS.bundle.scp.css",
+      "PackagePath": "staticwebassets\\COMP2139_KRN_GENIUS.bundle.scp.css"
+    },
+    {
+      "Id": "C:\\Users\\yimsh\\OneDrive\\Desktop\\COMP2139_KRN_GENIUS\\COMP2139_KRN_GENIUS\\COMP2139_KRN_GENIUS\\wwwroot\\css\\contact.css",
+      "PackagePath": "staticwebassets\\css\\contact.css"
+    },
+    {
+      "Id": "C:\\Users\\yimsh\\OneDrive\\Desktop\\COMP2139_KRN_GENIUS\\COMP2139_KRN_GENIUS\\COMP2139_KRN_GENIUS\\wwwroot\\css\\delete.css",
+      "PackagePath": "staticwebassets\\css\\delete.css"
+    },
+    {
+      "Id": "C:\\Users\\yimsh\\OneDrive\\Desktop\\COMP2139_KRN_GENIUS\\COMP2139_KRN_GENIUS\\COMP2139_KRN_GENIUS\\wwwroot\\css\\edit.css",
+      "PackagePath": "staticwebassets\\css\\edit.css"
+    },
+    {
+      "Id": "C:\\Users\\yimsh\\OneDrive\\Desktop\\COMP2139_KRN_GENIUS\\COMP2139_KRN_GENIUS\\COMP2139_KRN_GENIUS\\wwwroot\\css\\list.css",
+      "PackagePath": "staticwebassets\\css\\list.css"
+    },
+    {
+      "Id": "C:\\Users\\yimsh\\OneDrive\\Desktop\\COMP2139_KRN_GENIUS\\COMP2139_KRN_GENIUS\\COMP2139_KRN_GENIUS\\wwwroot\\css\\main.css",
+      "PackagePath": "staticwebassets\\css\\main.css"
+    },
+    {
+      "Id": "C:\\Users\\yimsh\\OneDrive\\Desktop\\COMP2139_KRN_GENIUS\\COMP2139_KRN_GENIUS\\COMP2139_KRN_GENIUS\\wwwroot\\favicon.ico",
+      "PackagePath": "staticwebassets\\favicon.ico"
+    },
+    {
+      "Id": "C:\\Users\\yimsh\\OneDrive\\Desktop\\COMP2139_KRN_GENIUS\\COMP2139_KRN_GENIUS\\COMP2139_KRN_GENIUS\\wwwroot\\js\\site.js",
+      "PackagePath": "staticwebassets\\js\\site.js"
+    },
+    {
+      "Id": "C:\\Users\\yimsh\\OneDrive\\Desktop\\COMP2139_KRN_GENIUS\\COMP2139_KRN_GENIUS\\COMP2139_KRN_GENIUS\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "PackagePath": "staticwebassets\\lib\\bootstrap"
+    },
+    {
+      "Id": "C:\\Users\\yimsh\\OneDrive\\Desktop\\COMP2139_KRN_GENIUS\\COMP2139_KRN_GENIUS\\COMP2139_KRN_GENIUS\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
+    },
+    {
+      "Id": "C:\\Users\\yimsh\\OneDrive\\Desktop\\COMP2139_KRN_GENIUS\\COMP2139_KRN_GENIUS\\COMP2139_KRN_GENIUS\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
+    },
+    {
+      "Id": "C:\\Users\\yimsh\\OneDrive\\Desktop\\COMP2139_KRN_GENIUS\\COMP2139_KRN_GENIUS\\COMP2139_KRN_GENIUS\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
+    },
+    {
+      "Id": "C:\\Users\\yimsh\\OneDrive\\Desktop\\COMP2139_KRN_GENIUS\\COMP2139_KRN_GENIUS\\COMP2139_KRN_GENIUS\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\yimsh\\OneDrive\\Desktop\\COMP2139_KRN_GENIUS\\COMP2139_KRN_GENIUS\\COMP2139_KRN_GENIUS\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\yimsh\\OneDrive\\Desktop\\COMP2139_KRN_GENIUS\\COMP2139_KRN_GENIUS\\COMP2139_KRN_GENIUS\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\yimsh\\OneDrive\\Desktop\\COMP2139_KRN_GENIUS\\COMP2139_KRN_GENIUS\\COMP2139_KRN_GENIUS\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\yimsh\\OneDrive\\Desktop\\COMP2139_KRN_GENIUS\\COMP2139_KRN_GENIUS\\COMP2139_KRN_GENIUS\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\yimsh\\OneDrive\\Desktop\\COMP2139_KRN_GENIUS\\COMP2139_KRN_GENIUS\\COMP2139_KRN_GENIUS\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
+    },
+    {
+      "Id": "C:\\Users\\yimsh\\OneDrive\\Desktop\\COMP2139_KRN_GENIUS\\COMP2139_KRN_GENIUS\\COMP2139_KRN_GENIUS\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
+    },
+    {
+      "Id": "C:\\Users\\yimsh\\OneDrive\\Desktop\\COMP2139_KRN_GENIUS\\COMP2139_KRN_GENIUS\\COMP2139_KRN_GENIUS\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
+    },
+    {
+      "Id": "C:\\Users\\yimsh\\OneDrive\\Desktop\\COMP2139_KRN_GENIUS\\COMP2139_KRN_GENIUS\\COMP2139_KRN_GENIUS\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\yimsh\\OneDrive\\Desktop\\COMP2139_KRN_GENIUS\\COMP2139_KRN_GENIUS\\COMP2139_KRN_GENIUS\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\yimsh\\OneDrive\\Desktop\\COMP2139_KRN_GENIUS\\COMP2139_KRN_GENIUS\\COMP2139_KRN_GENIUS\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\yimsh\\OneDrive\\Desktop\\COMP2139_KRN_GENIUS\\COMP2139_KRN_GENIUS\\COMP2139_KRN_GENIUS\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\yimsh\\OneDrive\\Desktop\\COMP2139_KRN_GENIUS\\COMP2139_KRN_GENIUS\\COMP2139_KRN_GENIUS\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\yimsh\\OneDrive\\Desktop\\COMP2139_KRN_GENIUS\\COMP2139_KRN_GENIUS\\COMP2139_KRN_GENIUS\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
+    },
+    {
+      "Id": "C:\\Users\\yimsh\\OneDrive\\Desktop\\COMP2139_KRN_GENIUS\\COMP2139_KRN_GENIUS\\COMP2139_KRN_GENIUS\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
+    },
+    {
+      "Id": "C:\\Users\\yimsh\\OneDrive\\Desktop\\COMP2139_KRN_GENIUS\\COMP2139_KRN_GENIUS\\COMP2139_KRN_GENIUS\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
+    },
+    {
+      "Id": "C:\\Users\\yimsh\\OneDrive\\Desktop\\COMP2139_KRN_GENIUS\\COMP2139_KRN_GENIUS\\COMP2139_KRN_GENIUS\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\yimsh\\OneDrive\\Desktop\\COMP2139_KRN_GENIUS\\COMP2139_KRN_GENIUS\\COMP2139_KRN_GENIUS\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\yimsh\\OneDrive\\Desktop\\COMP2139_KRN_GENIUS\\COMP2139_KRN_GENIUS\\COMP2139_KRN_GENIUS\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\yimsh\\OneDrive\\Desktop\\COMP2139_KRN_GENIUS\\COMP2139_KRN_GENIUS\\COMP2139_KRN_GENIUS\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\yimsh\\OneDrive\\Desktop\\COMP2139_KRN_GENIUS\\COMP2139_KRN_GENIUS\\COMP2139_KRN_GENIUS\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\yimsh\\OneDrive\\Desktop\\COMP2139_KRN_GENIUS\\COMP2139_KRN_GENIUS\\COMP2139_KRN_GENIUS\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css"
+    },
+    {
+      "Id": "C:\\Users\\yimsh\\OneDrive\\Desktop\\COMP2139_KRN_GENIUS\\COMP2139_KRN_GENIUS\\COMP2139_KRN_GENIUS\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
+    },
+    {
+      "Id": "C:\\Users\\yimsh\\OneDrive\\Desktop\\COMP2139_KRN_GENIUS\\COMP2139_KRN_GENIUS\\COMP2139_KRN_GENIUS\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "C:\\Users\\yimsh\\OneDrive\\Desktop\\COMP2139_KRN_GENIUS\\COMP2139_KRN_GENIUS\\COMP2139_KRN_GENIUS\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\yimsh\\OneDrive\\Desktop\\COMP2139_KRN_GENIUS\\COMP2139_KRN_GENIUS\\COMP2139_KRN_GENIUS\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\yimsh\\OneDrive\\Desktop\\COMP2139_KRN_GENIUS\\COMP2139_KRN_GENIUS\\COMP2139_KRN_GENIUS\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\yimsh\\OneDrive\\Desktop\\COMP2139_KRN_GENIUS\\COMP2139_KRN_GENIUS\\COMP2139_KRN_GENIUS\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\yimsh\\OneDrive\\Desktop\\COMP2139_KRN_GENIUS\\COMP2139_KRN_GENIUS\\COMP2139_KRN_GENIUS\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\yimsh\\OneDrive\\Desktop\\COMP2139_KRN_GENIUS\\COMP2139_KRN_GENIUS\\COMP2139_KRN_GENIUS\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
+    },
+    {
+      "Id": "C:\\Users\\yimsh\\OneDrive\\Desktop\\COMP2139_KRN_GENIUS\\COMP2139_KRN_GENIUS\\COMP2139_KRN_GENIUS\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
+    },
+    {
+      "Id": "C:\\Users\\yimsh\\OneDrive\\Desktop\\COMP2139_KRN_GENIUS\\COMP2139_KRN_GENIUS\\COMP2139_KRN_GENIUS\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
+    },
+    {
+      "Id": "C:\\Users\\yimsh\\OneDrive\\Desktop\\COMP2139_KRN_GENIUS\\COMP2139_KRN_GENIUS\\COMP2139_KRN_GENIUS\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\yimsh\\OneDrive\\Desktop\\COMP2139_KRN_GENIUS\\COMP2139_KRN_GENIUS\\COMP2139_KRN_GENIUS\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
+    },
+    {
+      "Id": "C:\\Users\\yimsh\\OneDrive\\Desktop\\COMP2139_KRN_GENIUS\\COMP2139_KRN_GENIUS\\COMP2139_KRN_GENIUS\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
+    },
+    {
+      "Id": "C:\\Users\\yimsh\\OneDrive\\Desktop\\COMP2139_KRN_GENIUS\\COMP2139_KRN_GENIUS\\COMP2139_KRN_GENIUS\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
+    },
+    {
+      "Id": "C:\\Users\\yimsh\\OneDrive\\Desktop\\COMP2139_KRN_GENIUS\\COMP2139_KRN_GENIUS\\COMP2139_KRN_GENIUS\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\yimsh\\OneDrive\\Desktop\\COMP2139_KRN_GENIUS\\COMP2139_KRN_GENIUS\\COMP2139_KRN_GENIUS\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js"
+    },
+    {
+      "Id": "C:\\Users\\yimsh\\OneDrive\\Desktop\\COMP2139_KRN_GENIUS\\COMP2139_KRN_GENIUS\\COMP2139_KRN_GENIUS\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
+    },
+    {
+      "Id": "C:\\Users\\yimsh\\OneDrive\\Desktop\\COMP2139_KRN_GENIUS\\COMP2139_KRN_GENIUS\\COMP2139_KRN_GENIUS\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
+    },
+    {
+      "Id": "C:\\Users\\yimsh\\OneDrive\\Desktop\\COMP2139_KRN_GENIUS\\COMP2139_KRN_GENIUS\\COMP2139_KRN_GENIUS\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\yimsh\\OneDrive\\Desktop\\COMP2139_KRN_GENIUS\\COMP2139_KRN_GENIUS\\COMP2139_KRN_GENIUS\\wwwroot\\lib\\img\\1sad.jpg",
+      "PackagePath": "staticwebassets\\lib\\img\\1sad.jpg"
+    },
+    {
+      "Id": "C:\\Users\\yimsh\\OneDrive\\Desktop\\COMP2139_KRN_GENIUS\\COMP2139_KRN_GENIUS\\COMP2139_KRN_GENIUS\\wwwroot\\lib\\img\\2joy.jpg",
+      "PackagePath": "staticwebassets\\lib\\img\\2joy.jpg"
+    },
+    {
+      "Id": "C:\\Users\\yimsh\\OneDrive\\Desktop\\COMP2139_KRN_GENIUS\\COMP2139_KRN_GENIUS\\COMP2139_KRN_GENIUS\\wwwroot\\lib\\img\\3anger.jpg",
+      "PackagePath": "staticwebassets\\lib\\img\\3anger.jpg"
+    },
+    {
+      "Id": "C:\\Users\\yimsh\\OneDrive\\Desktop\\COMP2139_KRN_GENIUS\\COMP2139_KRN_GENIUS\\COMP2139_KRN_GENIUS\\wwwroot\\lib\\img\\admin-cust.jpg",
+      "PackagePath": "staticwebassets\\lib\\img\\admin-cust.jpg"
+    },
+    {
+      "Id": "C:\\Users\\yimsh\\OneDrive\\Desktop\\COMP2139_KRN_GENIUS\\COMP2139_KRN_GENIUS\\COMP2139_KRN_GENIUS\\wwwroot\\lib\\img\\admin-incid.jpg",
+      "PackagePath": "staticwebassets\\lib\\img\\admin-incid.jpg"
+    },
+    {
+      "Id": "C:\\Users\\yimsh\\OneDrive\\Desktop\\COMP2139_KRN_GENIUS\\COMP2139_KRN_GENIUS\\COMP2139_KRN_GENIUS\\wwwroot\\lib\\img\\admin-prod.jpg",
+      "PackagePath": "staticwebassets\\lib\\img\\admin-prod.jpg"
+    },
+    {
+      "Id": "C:\\Users\\yimsh\\OneDrive\\Desktop\\COMP2139_KRN_GENIUS\\COMP2139_KRN_GENIUS\\COMP2139_KRN_GENIUS\\wwwroot\\lib\\img\\admin-regis.jpg",
+      "PackagePath": "staticwebassets\\lib\\img\\admin-regis.jpg"
+    },
+    {
+      "Id": "C:\\Users\\yimsh\\OneDrive\\Desktop\\COMP2139_KRN_GENIUS\\COMP2139_KRN_GENIUS\\COMP2139_KRN_GENIUS\\wwwroot\\lib\\img\\admin-tech.jpg",
+      "PackagePath": "staticwebassets\\lib\\img\\admin-tech.jpg"
+    },
+    {
+      "Id": "C:\\Users\\yimsh\\OneDrive\\Desktop\\COMP2139_KRN_GENIUS\\COMP2139_KRN_GENIUS\\COMP2139_KRN_GENIUS\\wwwroot\\lib\\img\\fb-logo.png",
+      "PackagePath": "staticwebassets\\lib\\img\\fb-logo.png"
+    },
+    {
+      "Id": "C:\\Users\\yimsh\\OneDrive\\Desktop\\COMP2139_KRN_GENIUS\\COMP2139_KRN_GENIUS\\COMP2139_KRN_GENIUS\\wwwroot\\lib\\img\\fb.png",
+      "PackagePath": "staticwebassets\\lib\\img\\fb.png"
+    },
+    {
+      "Id": "C:\\Users\\yimsh\\OneDrive\\Desktop\\COMP2139_KRN_GENIUS\\COMP2139_KRN_GENIUS\\COMP2139_KRN_GENIUS\\wwwroot\\lib\\img\\inst-logo.png",
+      "PackagePath": "staticwebassets\\lib\\img\\inst-logo.png"
+    },
+    {
+      "Id": "C:\\Users\\yimsh\\OneDrive\\Desktop\\COMP2139_KRN_GENIUS\\COMP2139_KRN_GENIUS\\COMP2139_KRN_GENIUS\\wwwroot\\lib\\img\\inst.png",
+      "PackagePath": "staticwebassets\\lib\\img\\inst.png"
+    },
+    {
+      "Id": "C:\\Users\\yimsh\\OneDrive\\Desktop\\COMP2139_KRN_GENIUS\\COMP2139_KRN_GENIUS\\COMP2139_KRN_GENIUS\\wwwroot\\lib\\img\\league.jpg",
+      "PackagePath": "staticwebassets\\lib\\img\\league.jpg"
+    },
+    {
+      "Id": "C:\\Users\\yimsh\\OneDrive\\Desktop\\COMP2139_KRN_GENIUS\\COMP2139_KRN_GENIUS\\COMP2139_KRN_GENIUS\\wwwroot\\lib\\img\\link-logo.png",
+      "PackagePath": "staticwebassets\\lib\\img\\link-logo.png"
+    },
+    {
+      "Id": "C:\\Users\\yimsh\\OneDrive\\Desktop\\COMP2139_KRN_GENIUS\\COMP2139_KRN_GENIUS\\COMP2139_KRN_GENIUS\\wwwroot\\lib\\img\\link.png",
+      "PackagePath": "staticwebassets\\lib\\img\\link.png"
+    },
+    {
+      "Id": "C:\\Users\\yimsh\\OneDrive\\Desktop\\COMP2139_KRN_GENIUS\\COMP2139_KRN_GENIUS\\COMP2139_KRN_GENIUS\\wwwroot\\lib\\img\\mail-logo.png",
+      "PackagePath": "staticwebassets\\lib\\img\\mail-logo.png"
+    },
+    {
+      "Id": "C:\\Users\\yimsh\\OneDrive\\Desktop\\COMP2139_KRN_GENIUS\\COMP2139_KRN_GENIUS\\COMP2139_KRN_GENIUS\\wwwroot\\lib\\img\\mail.png",
+      "PackagePath": "staticwebassets\\lib\\img\\mail.png"
+    },
+    {
+      "Id": "C:\\Users\\yimsh\\OneDrive\\Desktop\\COMP2139_KRN_GENIUS\\COMP2139_KRN_GENIUS\\COMP2139_KRN_GENIUS\\wwwroot\\lib\\img\\stadium1.jpg",
+      "PackagePath": "staticwebassets\\lib\\img\\stadium1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\yimsh\\OneDrive\\Desktop\\COMP2139_KRN_GENIUS\\COMP2139_KRN_GENIUS\\COMP2139_KRN_GENIUS\\wwwroot\\lib\\img\\tech-incid-r.jpg",
+      "PackagePath": "staticwebassets\\lib\\img\\tech-incid-r.jpg"
+    },
+    {
+      "Id": "C:\\Users\\yimsh\\OneDrive\\Desktop\\COMP2139_KRN_GENIUS\\COMP2139_KRN_GENIUS\\COMP2139_KRN_GENIUS\\wwwroot\\lib\\img\\tech-incid.jpg",
+      "PackagePath": "staticwebassets\\lib\\img\\tech-incid.jpg"
+    },
+    {
+      "Id": "C:\\Users\\yimsh\\OneDrive\\Desktop\\COMP2139_KRN_GENIUS\\COMP2139_KRN_GENIUS\\COMP2139_KRN_GENIUS\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
+    },
+    {
+      "Id": "C:\\Users\\yimsh\\OneDrive\\Desktop\\COMP2139_KRN_GENIUS\\COMP2139_KRN_GENIUS\\COMP2139_KRN_GENIUS\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
+    },
+    {
+      "Id": "C:\\Users\\yimsh\\OneDrive\\Desktop\\COMP2139_KRN_GENIUS\\COMP2139_KRN_GENIUS\\COMP2139_KRN_GENIUS\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
+    },
+    {
+      "Id": "C:\\Users\\yimsh\\OneDrive\\Desktop\\COMP2139_KRN_GENIUS\\COMP2139_KRN_GENIUS\\COMP2139_KRN_GENIUS\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\LICENSE.md"
+    },
+    {
+      "Id": "C:\\Users\\yimsh\\OneDrive\\Desktop\\COMP2139_KRN_GENIUS\\COMP2139_KRN_GENIUS\\COMP2139_KRN_GENIUS\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.js"
+    },
+    {
+      "Id": "C:\\Users\\yimsh\\OneDrive\\Desktop\\COMP2139_KRN_GENIUS\\COMP2139_KRN_GENIUS\\COMP2139_KRN_GENIUS\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.min.js"
+    },
+    {
+      "Id": "C:\\Users\\yimsh\\OneDrive\\Desktop\\COMP2139_KRN_GENIUS\\COMP2139_KRN_GENIUS\\COMP2139_KRN_GENIUS\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.js"
+    },
+    {
+      "Id": "C:\\Users\\yimsh\\OneDrive\\Desktop\\COMP2139_KRN_GENIUS\\COMP2139_KRN_GENIUS\\COMP2139_KRN_GENIUS\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
+    },
+    {
+      "Id": "C:\\Users\\yimsh\\OneDrive\\Desktop\\COMP2139_KRN_GENIUS\\COMP2139_KRN_GENIUS\\COMP2139_KRN_GENIUS\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery\\LICENSE.txt"
+    },
+    {
+      "Id": "C:\\Users\\yimsh\\OneDrive\\Desktop\\COMP2139_KRN_GENIUS\\COMP2139_KRN_GENIUS\\COMP2139_KRN_GENIUS\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.js"
+    },
+    {
+      "Id": "C:\\Users\\yimsh\\OneDrive\\Desktop\\COMP2139_KRN_GENIUS\\COMP2139_KRN_GENIUS\\COMP2139_KRN_GENIUS\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.js"
+    },
+    {
+      "Id": "C:\\Users\\yimsh\\OneDrive\\Desktop\\COMP2139_KRN_GENIUS\\COMP2139_KRN_GENIUS\\COMP2139_KRN_GENIUS\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.COMP2139_KRN_GENIUS.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.build.COMP2139_KRN_GENIUS.props",
+      "PackagePath": "build\\COMP2139_KRN_GENIUS.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.buildMultiTargeting.COMP2139_KRN_GENIUS.props",
+      "PackagePath": "buildMultiTargeting\\COMP2139_KRN_GENIUS.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.buildTransitive.COMP2139_KRN_GENIUS.props",
+      "PackagePath": "buildTransitive\\COMP2139_KRN_GENIUS.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

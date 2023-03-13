@@ -1,0 +1,66 @@
+﻿@using COMP2139_KRN_GENIUS.Models.ViewModels
+@model IQueryable<IncidentViewModel>
+@{
+    ViewData["Title"] = $"Incident of {ViewBag.Technician}";
+}
+<section id="list">
+    <div id="list-page">
+        <div class="list-title">
+            <h1>Assigned/Open Incidents<br />By the technician</h1>
+            <h2>
+                TECHNICIAN : <b>@ViewBag.Technician</b><br />
+            </h2>
+            <div class="list-btn-switch">
+				<a asp-area="" asp-controller="TechIncident" asp-action="Get"><span></span>Switch Technician</a>
+			</div> 
+
+            @if(TempData["message"] != null)
+            {
+                <div class="action-alert">
+                    <div class="action-alert-desc">
+                        @TempData["message"]
+                    </div>
+                </div>
+            }
+
+            <div class="list-table">
+                <table>
+                    <thead>
+                        <tr>
+                            <th width="35%">Title</th>
+                            <th width="15%">Customer</th>
+                            <th width="30%">Product</th>
+                            <th width="15%">Date Opened</th>
+                            <th width="15%">Action</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        @if (Model.Count() == 0)
+                        {
+                            <tr>
+                                <td colspan="5"><b>There is no opened incident ...</b></td>
+                            </tr>
+                        }
+                        else
+                        {
+                            @foreach (var incident in Model)
+                            {
+                                <tr>
+                                    <td>@incident.Incident.Title</td>
+                                    <td>@incident.CustomerName</td>
+                                    <td>@incident.ProductName</td>
+                                    <td>@incident.DateOpened?.ToString("MMMM dd, yyyy")</td>
+                                    <td class="action-sec">
+                                        <div class="action-btn">
+                                            <a asp-controller="TechIncident" asp-action="Edit" asp-route-id="@incident.Incident.IncidentId"><span></span>Edit</a>
+                                        </div>
+                                    </td>
+                                </tr>
+                            }
+                        }
+					</tbody>
+				</table>
+			</div>
+        </div>
+    </div>
+</section>

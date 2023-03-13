@@ -1,0 +1,429 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500;700;900&family=Unica+One&display=swap');
+
+* {
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-size: 14pt;
+    position: relative;
+    min-height: 100%;
+}
+
+header {
+    left: 0;
+    right: 0;
+    height: 10vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 10%;
+    background-color: #101010;
+    z-index: 9999;
+}
+
+.logo {
+    text-decoration: none;
+    font-size: 50pt;
+    font-weight: 700;
+    color: #fff;
+    font-family: 'Unica One', cursive;
+    transition: all 0.3s ease 0s;
+}
+
+.logo:hover {
+    color: #2564c7;
+}
+
+.nav_links {
+    list-style: none;
+}
+
+.nav_links li, .nav_links li a {
+    font-weight: 500;
+    font-size: 14pt;
+    color: #fff;
+    text-decoration: none;
+}
+
+.nav_links li {
+    display: inline-block;
+    padding: 0px 20px;
+    text-align: center;
+}
+
+.nav_links li a {
+    transition: all 0.3s ease 0s;
+}
+
+.nav_links li a:hover {
+    color: #f5b85a;
+}
+
+#main-banner {
+    background-image: linear-gradient(rgba(0,0,0,0.1), #000000), url(../lib/img/stadium1.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 90vh;
+}
+
+.main-text {
+    text-align: center;
+    color: #fff;
+    padding-top: 30vh;
+}
+
+.main-text h1 {
+    font-size: 40pt;
+    font-weight: 700;
+    font-style: italic;
+}
+
+.main-text p {
+    font-size: 14pt;
+}
+
+.main-btn {
+    margin: 70px auto 0;
+}
+
+.main-btn a {
+    width: 200px;
+    padding: 12px 0;
+    margin: 0 10px;
+    font-weight: 700;
+    font-size: 16pt;
+    text-decoration: none;
+    display: inline-block;
+    color: #fff;
+    border: 2px solid #fff;
+    border-radius: 30px;
+    position: relative;
+    z-index: 1;
+    transition: 0.5s;
+    overflow: hidden;
+}
+
+.main-btn a span {
+    width: 0%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: #fff;
+    z-index: -1;
+    transition: 0.5s;
+}
+
+.main-btn a:hover {
+    color: #101010;
+}
+
+.main-btn a:hover span {
+    width: 100%;
+}
+
+/* ------------- Administer section ------------- */
+
+/* intersection */
+#admin {
+    padding: 100px 600px;
+    display: flex;
+    justify-content: center;
+}
+
+#tech {
+    padding: 50px 600px 135px 600px;
+    display: flex;
+    justify-content: center;
+}
+
+.admin-content {
+    padding-top: 60px;
+}
+
+.admin-title {
+    text-align: center;
+    margin: 35px 0;
+    color: #101010;
+}
+
+.admin-title h1 {
+    margin: auto;
+    font-size: 40pt;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+
+.admin-title p {
+    margin-bottom: 0;
+    font-size: 14pt;
+}
+
+/* ---- Administrator _ Products part ---- */
+#admin1 {
+    height: 600px;
+}
+
+#admin1-desc {
+    top: 80px;
+    margin-left: 700px;
+    padding: 40px;
+    border-radius: 2%;
+}
+
+/* ---- Administrator _ Customers part ---- */
+#admin2 {
+    height: 600px;
+    margin-top: 100px;
+}
+
+#admin2-desc {
+    top: 250px;
+    margin-right: 600px;
+    padding: 40px;
+    border-radius: 2%;
+}
+
+#admin2-img img {
+    position: absolute;
+    margin-left: 450px;
+}
+
+/* ---- Administrator _ Technicians part ---- */
+#admin3 {
+    height: 600px;
+    margin-top: 120px;
+}
+
+#admin3-desc {
+    top: 300px;
+    margin-left: 700px;
+    padding: 40px;
+    border-radius: 2%;
+}
+
+/* ---- Administrator _ Incidents part ---- */
+#admin4 {
+    height: 600px;
+    margin-top: 170px;
+}
+
+#admin4-desc {
+    top: 120px;
+    margin-right: 600px;
+    padding: 40px;
+    border-radius: 2%;
+}
+
+#admin4-img img {
+    position: absolute;
+    margin-left: 450px;
+}
+
+
+/* ---- Administrator _ Registration part ---- */
+#admin5 {
+    height: 600px;
+    margin-top: 100px;
+}
+
+#admin5-desc {
+    top: 160px;
+    margin-left: 700px;
+    padding: 40px;
+    border-radius: 2%;
+}
+
+
+/* ---- Technician _ Incidents part ---- */
+#admin6 {
+    height: 600px;
+}
+
+#admin6-desc {
+    top: 200px;
+    margin-right: 600px;
+    padding: 40px;
+    border-radius: 2%;
+}
+
+#admin6-img img {
+    position: absolute;
+    margin-left: 450px;
+}
+
+/* intersection */
+.admin-img {
+    position: absolute;
+    background-color: #fdd;
+    border-color: #900;
+}
+
+.admin-img img {
+    height: 600px;
+}
+
+.admin-desc {
+    position: relative;
+    height: 370px;
+    width: 650px;
+    background-color: #fff;
+    border-color: #696;
+    box-shadow: 0 0 45px rgb(0 0 0 / 15%);
+}
+
+.admin-desc h1 {
+    font-weight: 700;
+    font-size: 30pt;
+    color: #101010;
+}
+
+.admin-desc h6 {
+    font-size: 14pt;
+    font-style: italic;
+    color: #101010;
+}
+
+.admin-desc p {
+    font-size: 12pt;
+    font-style: italic;
+    color: #101010;
+}
+
+.admin-btn {
+    margin-top: 10px;
+    text-align: center;
+}
+
+.admin-btn a {
+    position: relative;
+    display: inline-block;
+    padding: 15px 30px;
+    border: 2px solid #101010;
+    color: #101010;
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 14pt;
+}
+.admin-btn a:before {
+    content: '';
+    position: absolute;
+    top: 6px;
+    left: -2px;
+    width: calc(100% + 6px);
+    height: calc(100% - 12px);
+    background-color: #fff;
+    transition: 0.3s ease-in-out;
+    transition-delay: 0.3s;
+    transform: scaleY(1);
+}
+
+.admin-btn a:hover:before {
+    transform: scaleY(0);
+}
+
+.admin-btn a:after {
+    content: '';
+    position: absolute;
+    left: 6px;
+    top: -2px;
+    height: calc(100% + 6px);
+    width: calc(100% - 12px);
+    background-color: #fff;
+    transition: 0.3s ease-in-out;
+    transform: scaleX(1);
+}
+
+.admin-btn a:hover:after {
+    transform: scaleX(0);
+}
+
+.admin-btn a span {
+    position: relative;
+    z-index: 3;
+}
+
+/* ------------- Footer section ------------- */
+#foot2 {
+    display: flex;
+    justify-content: center;
+    padding: 50px 0;
+    background: #101010;
+}
+
+.foot2-sec1, .foot2-sec2, .foot2-sec3 {
+    margin: 0 60px;
+}
+
+.logo2-f {
+    text-decoration: none;
+    font-size: 60px;
+    font-weight: bold;
+    color: #fff;
+    font-family: 'Unica One', cursive;
+    transition: all 0.3s ease 0s;
+}
+
+.logo2-f:hover {
+    color: #808080;
+}
+
+.foot2-sec1 h6 {
+    font-size: 12pt;
+    color: #fff;
+}
+
+.foot2-sec2 h3 {
+    margin-top: 20px;
+    font-size: 16pt;
+    font-weight: 700;
+    color: #fff;
+}
+
+.foot2-sec2 h6 {
+    font-size: 12pt;
+    color: #fff;
+}
+
+.foot2-sec3 {
+    margin-top: 20px;
+}
+
+.sub2-menu {
+    text-align: center;
+}
+
+.sub2-menu h5 {
+    font-size: 20pt;
+    font-weight: 700;
+    color: #fff;
+}
+
+.sub2-content ul {
+    padding-left: 0;
+}
+
+.sub2-content ul li {
+    list-style: none;
+    text-align: center;
+}
+
+.sub2-content ul li a {
+    text-decoration: none;
+    font-size: 12pt;
+    font-style: italic;
+    color: #fff;
+    transition: all 0.3s ease 0s;
+}
+
+.sub2-content ul li a:hover {
+    color: #808080;
+}
+
+hr.line2 {
+    border-top: 1px solid #fff;
+}

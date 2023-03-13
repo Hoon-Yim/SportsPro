@@ -1,0 +1,107 @@
+﻿#delete {
+    display: flex;
+    justify-content: center;
+}
+
+#delete-page {
+    margin: 100px 0;
+}
+
+.delete-title {
+    text-align: center;
+}
+
+.delete-title h1 {
+    text-transform: uppercase;
+    font-size: 40pt;
+    font-weight: 700;
+}
+
+.delete-title h6 {
+    margin-top: 50px;
+    color: #d12626;
+    font-style: italic;
+    font-size: 16pt;
+    font-weight: 700;
+}
+
+.delete-table {
+    text-align: center;
+}
+
+.delete-table table {
+    margin: 50px 0;
+    width: 1000px;
+}
+
+.delete-table thead th {
+    background-color: #101010;
+    color: #fff;
+}
+
+.delete-table tbody td {
+    background-color: #f4f4f3;
+}
+
+.delete-table th, .delete-table td {
+    padding: 20px 40px;
+    font-size: 14pt;
+}
+
+.delete-form {
+    width: 500px;
+    margin: 0 auto;
+    margin-top: 90px;
+    padding: 50px;
+    background-color: #f4f4f3;
+    border: 2px solid #101010;
+    border-top-width: 45px;
+    border-radius: 10px;
+}
+
+.delete-sec h2 {
+    font-size: 24pt;
+    font-weight: 700;
+}
+
+.delete-btn {
+    text-align: center;
+    padding-top: 20px;
+}
+
+.delete-btn button {
+    width: 150px;
+    padding: 12px 0;
+    margin: 0 5px;
+    font-size: 14pt;
+    display: inline-block;
+    border: 2px solid #101010;
+    border-radius: 30px;
+    background-color: #101010;
+    color: #fff;
+    transition: 0.5s;
+}
+
+.delete-btn a {
+    text-decoration: none;
+    width: 150px;
+    padding: 12px 0;
+    margin: 0 5px;
+    font-size: 14pt;
+    display: inline-block;
+    border: 2px solid #101010;
+    border-radius: 30px;
+    background-color: #101010;
+    color: #fff;
+    transition: 0.5s;
+}
+
+.delete-btn button:hover {
+    background-color: #d12626;
+    border: 2px solid #d12626;
+}
+
+.delete-btn a:hover {
+    background-color: #696969;
+    border: 2px solid #696969;
+}

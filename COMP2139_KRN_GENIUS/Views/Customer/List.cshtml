@@ -1,0 +1,53 @@
+﻿@model List<Customer>
+@{
+    ViewData["Title"] = "Customer";
+}
+
+<section id="list">
+    <div id="list-page">
+        <div class="list-title">
+            <h1>Customer Manager</h1>
+        </div>
+        <div class="list-btn">
+            <a asp-area="" asp-controller="Customer" asp-action="Add"><span></span>Add Customer</a>
+        </div>
+            @if(TempData["message"] != null)
+            {
+                <div class="action-alert">
+                    <div class="action-alert-desc">
+                        @TempData["message"]
+                    </div>
+                </div>
+            }
+        <div class="list-table">
+            <table>
+                <thead>
+                    <tr>
+                        <th width="30%">Name</th>
+                        <th width="35%">Email</th>
+                        <th width="20%">City</th>
+                        <th width="15%">Action</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    @foreach (var customer in Model)
+                    {
+				        <tr>
+					        <td>@customer.FirstName @customer.LastName</td>
+					        <td>@customer.Email</td>
+					        <td>@customer.City</td>
+                            <td class="action-sec">
+                                <div class="action-btn">
+						            <a asp-controller="Customer" asp-action="Edit" asp-route-id="@customer.CustomerId"><span></span>Edit</a>
+                                </div>
+						        <div class="action-btn action-btn-del">
+                                    <a asp-controller="Customer" asp-action="Delete" asp-route-id="@customer.CustomerId"><span></span>Delete</a>
+                                </div>
+					        </td>
+				        </tr>
+                    }
+                </tbody>
+            </table>
+        </div>
+    </div>
+</section>

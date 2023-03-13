@@ -1,0 +1,109 @@
+is_global = true
+build_property.TargetFramework = net6.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = COMP2139_KRN_GENIUS
+build_property.RootNamespace = COMP2139_KRN_GENIUS
+build_property.ProjectDir = C:\Users\yimsh\OneDrive\Desktop\COMP2139_KRN_GENIUS\COMP2139_KRN_GENIUS\COMP2139_KRN_GENIUS\
+build_property.RazorLangVersion = 6.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = C:\Users\yimsh\OneDrive\Desktop\COMP2139_KRN_GENIUS\COMP2139_KRN_GENIUS\COMP2139_KRN_GENIUS
+build_property._RazorSourceGeneratorDebug = 
+
+[C:/Users/yimsh/OneDrive/Desktop/COMP2139_KRN_GENIUS/COMP2139_KRN_GENIUS/COMP2139_KRN_GENIUS/Views/Customer/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ3VzdG9tZXJcRGVsZXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/yimsh/OneDrive/Desktop/COMP2139_KRN_GENIUS/COMP2139_KRN_GENIUS/COMP2139_KRN_GENIUS/Views/Customer/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ3VzdG9tZXJcRWRpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/yimsh/OneDrive/Desktop/COMP2139_KRN_GENIUS/COMP2139_KRN_GENIUS/COMP2139_KRN_GENIUS/Views/Customer/List.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ3VzdG9tZXJcTGlzdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/yimsh/OneDrive/Desktop/COMP2139_KRN_GENIUS/COMP2139_KRN_GENIUS/COMP2139_KRN_GENIUS/Views/Home/About.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxBYm91dC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/yimsh/OneDrive/Desktop/COMP2139_KRN_GENIUS/COMP2139_KRN_GENIUS/COMP2139_KRN_GENIUS/Views/Home/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/yimsh/OneDrive/Desktop/COMP2139_KRN_GENIUS/COMP2139_KRN_GENIUS/COMP2139_KRN_GENIUS/Views/Incident/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSW5jaWRlbnRcRGVsZXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/yimsh/OneDrive/Desktop/COMP2139_KRN_GENIUS/COMP2139_KRN_GENIUS/COMP2139_KRN_GENIUS/Views/Incident/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSW5jaWRlbnRcRWRpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/yimsh/OneDrive/Desktop/COMP2139_KRN_GENIUS/COMP2139_KRN_GENIUS/COMP2139_KRN_GENIUS/Views/Incident/List.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSW5jaWRlbnRcTGlzdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/yimsh/OneDrive/Desktop/COMP2139_KRN_GENIUS/COMP2139_KRN_GENIUS/COMP2139_KRN_GENIUS/Views/Product/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHVjdFxEZWxldGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/yimsh/OneDrive/Desktop/COMP2139_KRN_GENIUS/COMP2139_KRN_GENIUS/COMP2139_KRN_GENIUS/Views/Product/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHVjdFxFZGl0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/yimsh/OneDrive/Desktop/COMP2139_KRN_GENIUS/COMP2139_KRN_GENIUS/COMP2139_KRN_GENIUS/Views/Product/List.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHVjdFxMaXN0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/yimsh/OneDrive/Desktop/COMP2139_KRN_GENIUS/COMP2139_KRN_GENIUS/COMP2139_KRN_GENIUS/Views/Registration/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUmVnaXN0cmF0aW9uXERlbGV0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/yimsh/OneDrive/Desktop/COMP2139_KRN_GENIUS/COMP2139_KRN_GENIUS/COMP2139_KRN_GENIUS/Views/Registration/Get.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUmVnaXN0cmF0aW9uXEdldC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/yimsh/OneDrive/Desktop/COMP2139_KRN_GENIUS/COMP2139_KRN_GENIUS/COMP2139_KRN_GENIUS/Views/Registration/List.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUmVnaXN0cmF0aW9uXExpc3QuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/yimsh/OneDrive/Desktop/COMP2139_KRN_GENIUS/COMP2139_KRN_GENIUS/COMP2139_KRN_GENIUS/Views/TechIncident/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVGVjaEluY2lkZW50XEVkaXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/yimsh/OneDrive/Desktop/COMP2139_KRN_GENIUS/COMP2139_KRN_GENIUS/COMP2139_KRN_GENIUS/Views/TechIncident/Get.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVGVjaEluY2lkZW50XEdldC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/yimsh/OneDrive/Desktop/COMP2139_KRN_GENIUS/COMP2139_KRN_GENIUS/COMP2139_KRN_GENIUS/Views/TechIncident/List.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVGVjaEluY2lkZW50XExpc3QuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/yimsh/OneDrive/Desktop/COMP2139_KRN_GENIUS/COMP2139_KRN_GENIUS/COMP2139_KRN_GENIUS/Views/Technician/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVGVjaG5pY2lhblxEZWxldGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/yimsh/OneDrive/Desktop/COMP2139_KRN_GENIUS/COMP2139_KRN_GENIUS/COMP2139_KRN_GENIUS/Views/Technician/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVGVjaG5pY2lhblxFZGl0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/yimsh/OneDrive/Desktop/COMP2139_KRN_GENIUS/COMP2139_KRN_GENIUS/COMP2139_KRN_GENIUS/Views/Technician/List.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVGVjaG5pY2lhblxMaXN0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/yimsh/OneDrive/Desktop/COMP2139_KRN_GENIUS/COMP2139_KRN_GENIUS/COMP2139_KRN_GENIUS/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/yimsh/OneDrive/Desktop/COMP2139_KRN_GENIUS/COMP2139_KRN_GENIUS/COMP2139_KRN_GENIUS/Views/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/yimsh/OneDrive/Desktop/COMP2139_KRN_GENIUS/COMP2139_KRN_GENIUS/COMP2139_KRN_GENIUS/Views/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = b-oppm6fce0q

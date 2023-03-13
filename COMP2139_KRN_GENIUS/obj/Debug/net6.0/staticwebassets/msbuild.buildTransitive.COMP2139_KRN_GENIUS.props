@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\buildMultiTargeting\COMP2139_KRN_GENIUS.props" />
+</Project>

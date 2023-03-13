@@ -1,0 +1,38 @@
+﻿@using COMP2139_KRN_GENIUS.Models.ViewModels
+@model RegistrationViewModel
+@{
+    ViewData["Title"] = "Registration";
+}
+
+<section id="edit">
+    <div id="edit-page">
+        <div class="edit-title">
+            <h1>View Registrations</h1>
+            <h2>By Customer</h2>
+        </div>
+            @if(TempData["message"] != null)
+            {
+                <div class="action-alert-warning">
+                    <div class="action-alert-warning-desc">
+                        @TempData["message"]
+                    </div>
+                </div>
+            }
+        <div class="edit-form">
+            <form asp-controller="Registration" asp-action="Get" method="POST">
+                <div class="edit-input">
+                    <select asp-for="CustomerId">
+                        <option value="0">Select a Customer..</option>
+                        @foreach (var customer in Model.Customers)
+                        {
+							<option value="@customer.CustomerId">@customer.FirstName @customer.LastName</option>
+                        }
+                    </select><br>
+                </div>
+                <div class="edit-btn">
+                    <button class="edit-save" type="submit">Select</button>
+                </div>
+            </form>
+        </div>
+    </div>
+</section>

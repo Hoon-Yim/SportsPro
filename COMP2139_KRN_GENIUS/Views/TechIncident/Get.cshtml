@@ -1,0 +1,38 @@
+﻿@using COMP2139_KRN_GENIUS.Models.ViewModels
+@model TechIncidentViewModel
+@{
+    ViewData["Title"] = "Incident by Technician";
+}
+
+<section id="edit">
+    <div id="edit-page">
+        <div class="edit-title">
+            <h1>Update Incidents</h1>
+            <h2>By Technican</h2>
+        </div>
+            @if(TempData["message"] != null)
+            {
+                <div class="action-alert-warning">
+                    <div class="action-alert-warning-desc">
+                        @TempData["message"]
+                    </div>
+                </div>
+            }
+        <div class="edit-form">
+            <form asp-action="Get" method="POST">
+                <div class="edit-input">
+                    <select asp-for="id">
+                        <option value="0">Select a technician..</option>
+                        @foreach (var technician in Model.Technicians)
+                        {
+							<option value="@technician.TechnicianId">@technician.Name</option>
+                        }
+                    </select><br>
+                </div>
+                <div class="edit-btn">
+                    <button class="edit-save" type="submit">Select</button>
+                </div>
+            </form>
+        </div>
+    </div>
+</section>

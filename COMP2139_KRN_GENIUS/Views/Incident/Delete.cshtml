@@ -1,0 +1,50 @@
+﻿@using COMP2139_KRN_GENIUS.Models.ViewModels
+@model IncidentViewModel
+@{
+    ViewData["Title"] = "Delete Incident";
+}
+
+<section id="delete">
+    <div id="delete-page">
+        <div class="delete-title">
+            <h1>Delete Incident</h1>
+            <h6>! Please check the information that you're trying to delete !</h6>
+        </div>
+        <div class="delete-table">
+            <table style="width: 1700px;">
+                <thead>
+                    <tr>
+                        <th width="25%">Title</th>
+                        <th width="15%">Customer</th>
+                        <th width="25%">Product</th>
+                        <th width="15%">Technician</th>
+                        <th width="20%">Date Opened</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>@Model.Incident.Title</td>
+                        <td>@Model.Incident.Customer.FirstName @Model.Incident.Customer.LastName</td>
+                        <td>@Model.Incident.Product.Name</td>
+                        <td>@Model.Incident.Technician?.Name</td>
+                        <td>@Model.Incident.DateOpened</td>
+                    </tr>
+                </tbody>
+            </table>
+
+            <div class="delete-form">
+                <form asp-action="Delete" method="POST">
+                    <input type="hidden" asp-for="Incident.IncidentId" />
+                    <input type="hidden" asp-for="Incident.Title" value="@Model.Incident.Title" />
+                    <div class="delete-sec">
+                        <h2>Are you sure?</h2>
+                        <div class="delete-btn">
+                            <button type="submit" class="delete-del">Delete</button>
+                            <a asp-action="List">Cancel</a>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</section>

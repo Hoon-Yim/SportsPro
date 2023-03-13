@@ -1,0 +1,129 @@
+﻿@{
+    ViewData["Title"] = "Home";
+}
+
+<!-- Main Page -->
+<section id="main-banner">
+    <div class="main-text">
+        <h1>SportsPro Technical Support</h1>
+        <p>Sports management software for the sports enthusiast</p>
+        <div class="main-btn">
+            <a href="#admin"><span></span>Administrator</a>
+            <a href="#tech"><span></span>Technician</a>
+        </div>
+    </div>
+</section>
+
+<!-- Administrator + Technician -->
+<section id="admin">
+    <div id="admin-page">
+        <div class="admin-title">
+            <h1>ADMINISTRATOR</h1>
+            <p>A menu that allows Administrators to manage products, technicians, customers, incidents.</p>
+        </div>
+        <div class="admin-content">
+            <div id="admin1">
+                <div class="admin-img">
+                    <img src="~/lib/img/admin-prod.jpg" alt="admin_products"/>
+                </div>
+                <div id="admin1-desc" class="admin-desc">
+                    <h1>Products</h1>
+                    <h6>Proin et libero sed lorem vestibulum mollis ut eget nisi. Integer erat turpis, fermentum nec molestie at.</h6>
+                    <p>
+                        Nullam imperdiet auctor erat, vel bibendum risus ullamcorper a. Sed sagittis at quam non feugiat. Integer vehicula diam velit, non tristique quam tristique id. Suspendisse finibus congue libero, sed faucibus ligula lacinia in. 
+                    </p>
+                    <div class="admin-btn">
+                        <a asp-area="" asp-controller="Product" asp-action="List"><span>View Products</span></a>
+                    </div>
+                </div>
+            </div>
+            <div id="admin2">
+                <div class="admin-img" id="admin2-img">
+                    <img src="~/lib/img/admin-cust.jpg" alt="admin_customers" />
+                </div>
+                <div id="admin2-desc" class="admin-desc">
+                    <h1>Customers</h1>
+                    <h6>Proin et libero sed lorem vestibulum mollis ut eget nisi. Integer erat turpis, fermentum nec molestie at.</h6>
+                    <p>
+                        Nullam imperdiet auctor erat, vel bibendum risus ullamcorper a. Sed sagittis at quam non feugiat. Integer vehicula diam velit, non tristique quam tristique id. Suspendisse finibus congue libero, sed faucibus ligula lacinia in.
+                    </p>
+                    <div class="admin-btn">
+                        <a asp-area="" asp-controller="Customer" asp-action="List"><span>View Customers</span></a>
+                    </div>
+                </div>
+            </div>
+            <div id="admin3">
+                <div class="admin-img">
+                    <img src="~/lib/img/admin-tech.jpg" alt="admin_technicians" />
+                </div>
+                <div id="admin3-desc" class="admin-desc">
+                    <h1>Technicians</h1>
+                    <h6>Proin et libero sed lorem vestibulum mollis ut eget nisi. Integer erat turpis, fermentum nec molestie at.</h6>
+                    <p>
+                        Nullam imperdiet auctor erat, vel bibendum risus ullamcorper a. Sed sagittis at quam non feugiat. Integer vehicula diam velit, non tristique quam tristique id. Suspendisse finibus congue libero, sed faucibus ligula lacinia in.
+                    </p>
+                    <div class="admin-btn">
+                        <a asp-area="" asp-controller="Technician" asp-action="List"><span>View Technicians</span></a>
+                    </div>
+                </div>
+            </div>
+            <div id="admin4">
+                <div class="admin-img" id="admin4-img">
+                    <img src="~/lib/img/admin-incid.jpg" alt="admin_incidents" />
+                </div>
+                <div id="admin4-desc" class="admin-desc">
+                    <h1>Incidents</h1>
+                    <h6>Proin et libero sed lorem vestibulum mollis ut eget nisi. Integer erat turpis, fermentum nec molestie at.</h6>
+                    <p>
+                        Nullam imperdiet auctor erat, vel bibendum risus ullamcorper a. Sed sagittis at quam non feugiat. Integer vehicula diam velit, non tristique quam tristique id. Suspendisse finibus congue libero, sed faucibus ligula lacinia in.
+                    </p>
+                    <div class="admin-btn">
+                        <a asp-area="" asp-controller="Incident" asp-action="List"><span>View Incidents</span></a>
+                    </div>
+                </div>
+            </div>
+            <div id="admin5">
+                <div class="admin-img">
+                    <img src="~/lib/img/admin-regis.jpg" alt="admin_registrations" />
+                </div>
+                <div id="admin5-desc" class="admin-desc">
+                    <h1>Registrations</h1>
+                    <h6>Proin et libero sed lorem vestibulum mollis ut eget nisi. Integer erat turpis, fermentum nec molestie at.</h6>
+                    <p>
+                        Nullam imperdiet auctor erat, vel bibendum risus ullamcorper a. Sed sagittis at quam non feugiat. Integer vehicula diam velit, non tristique quam tristique id. Suspendisse finibus congue libero, sed faucibus ligula lacinia in. 
+                    </p>
+                    <div class="admin-btn">
+                        <a asp-area="" asp-controller="Registration" asp-action="Get"><span>View Registrations</span></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section id="tech">
+    <div id="admin-page">
+        <div class="admin-title">
+            <h1>TECHNICIAN</h1>
+            <p>A menu that allows Technicians to update incidents.</p>
+        </div>
+        <div class="admin-content">
+            <div id="admin6">
+                <div class="admin-img" id="admin6-img">
+                    <img src="~/lib/img/tech-incid-r.jpg" alt="tech_incidents" />
+                </div>
+                <div id="admin6-desc" class="admin-desc">
+                    <h1>Incidents</h1>
+                    <h6>Proin et libero sed lorem vestibulum mollis ut eget nisi. Integer erat turpis, fermentum nec molestie at.</h6>
+                    <p>
+                        Nullam imperdiet auctor erat, vel bibendum risus ullamcorper a. Sed sagittis at quam non feugiat. Integer vehicula diam velit, non tristique quam tristique id. Suspendisse finibus congue libero, sed faucibus ligula lacinia in. 
+                    </p>
+                    <div class="admin-btn">
+			            <a asp-area="" asp-controller="TechIncident" asp-action="Get"><span>Update Incidents</span></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+

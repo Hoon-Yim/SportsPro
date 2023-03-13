@@ -1,0 +1,115 @@
+﻿#edit {
+    display: flex;
+    justify-content: center;
+}
+
+#edit-page {
+    width: 1000px;
+    margin: 120px 0;
+    background-color: #f4f4f3;
+    padding: 90px 120px;
+    border: 2px solid #101010;
+}
+
+.edit-title {
+    text-align: center;
+}
+
+.edit-title h1 {
+    text-transform: uppercase;
+    font-size: 40pt;
+    font-weight: 700;
+}
+.edit-title h2 {
+    margin-top: 30px;
+}
+
+.edit-title h6 {
+    font-style: italic;
+}
+
+.edit-alert {
+    text-align: right;
+    color: #d12626;
+}
+
+.edit-alert ul {
+    list-style: none;
+    margin-left: -40px;
+    font-weight: 700;
+    font-style: italic;
+}
+
+.edit-input {
+    display: flex;
+    align-items: center;
+    padding: 20px 0;
+}
+
+.edit-input label {
+    width: 230px;
+    text-align: left;
+    padding-right: 20px;
+    font-size: 16pt;
+}
+
+.edit-input input {
+    width: 100%;
+    padding: 10px;
+}
+
+.edit-input select {
+    width: 100%;
+    padding: 10px;
+}
+
+.edit-btn {
+    text-align: center;
+    padding-top: 20px; 
+}
+
+.input-validation-error {
+    box-shadow: 0 0 3px #CC0000;
+}
+
+.edit-btn button {
+    width: 150px;
+    padding: 12px 0;
+    margin: 0 5px;
+    font-size: 14pt;
+    display: inline-block;
+    border: 2px solid #101010;
+    border-radius: 30px;
+    background-color: #101010;
+    color: #fff;
+    transition: 0.5s;
+}
+
+.edit-btn a {
+    text-decoration: none;
+    width: 150px;
+    padding: 12px 0;
+    margin: 0 5px;
+    font-size: 14pt;
+    display: inline-block;
+    border: 2px solid #101010;
+    border-radius: 30px;
+    background-color: #101010;
+    color: #fff;
+    transition: 0.5s;
+}
+
+.edit-btn button:hover {
+    background-color: #2564c7;
+    border: 2px solid #2564c7;
+}
+
+.edit-btn a:hover {
+    background-color: #d12626;
+    border: 2px solid #d12626;
+}
+
+/* Edit for Registration */
+.sub-edit-form h3 {
+    
+}

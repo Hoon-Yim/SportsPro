@@ -1,0 +1,55 @@
+﻿@model List<Product>
+@{
+    ViewData["Title"] = "Product";
+}
+
+<section id="list">
+    <div id="list-page">
+        <div class="list-title">
+            <h1>Product Manager</h1>
+        </div>
+        <div class="list-btn">
+            <a asp-area="" asp-controller="Product" asp-action="Add"><span></span>Add Product</a>
+        </div>
+            @if(TempData["message"] != null)
+            {
+                <div class="action-alert">
+                    <div class="action-alert-desc">
+                        @TempData["message"]
+                    </div>
+                </div>
+            }
+        <div class="list-table">
+            <table>
+                <thead>
+                    <tr>
+                        <th width="15%">Code</th>
+                        <th width="35%">Name</th>
+                        <th width="15%">Price</th>
+                        <th width="20%">Release Date</th>
+                        <th width="15%">Action</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    @foreach (var product in Model)
+                    {
+				        <tr>
+					        <td>@product.Code</td>
+					        <td>@product.Name</td>
+					        <td>$@string.Format("{0:N2}", product.YearlyPrice)</td>
+					        <td>@product.Date.ToString("MMMM dd, yyyy")</td>
+                            <td class="action-sec">
+                                <div class="action-btn">
+						            <a asp-controller="Product" asp-action="Edit" asp-route-id="@product.ProductId"><span></span>Edit</a>
+                                </div>
+						        <div class="action-btn action-btn-del">
+                                    <a asp-controller="Product" asp-action="Delete" asp-route-id="@product.ProductId"><span></span>Delete</a>
+                                </div>
+					        </td>
+				        </tr>
+                    }
+                </tbody>
+            </table>
+        </div>
+    </div>
+</section>

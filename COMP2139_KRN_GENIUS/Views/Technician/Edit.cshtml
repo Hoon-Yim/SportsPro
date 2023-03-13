@@ -1,0 +1,50 @@
+﻿@model Technician
+@{
+    ViewData["Title"] = @ViewBag.Action + " Technician";
+}
+
+<section id="edit">
+    <div id="edit-page">
+        <div class="edit-title">
+            <h1>@ViewBag.Action Technician</h1>
+            <h6>To save the information of Technician, Click [ Save ]</h6>
+        </div>
+        <div class="edit-form">
+            <form asp-action="Edit" method="POST">
+                <div class="edit-input">
+                    <label asp-for="Name">Name</label>
+                    <input asp-for="Name" type="text" value="@Model.Name"><br>
+                </div>
+
+                <div class="edit-alert">
+					@Html.ValidationMessage("Name")
+                </div>
+
+                <div class="edit-input">
+                    <label asp-for="Email">Email</label>
+                    <input asp-for="Email" type="email" value="@Model.Email" placeholder="username@email.com"><br>
+                </div>
+
+                <div class="edit-alert">
+					@Html.ValidationMessage("Email")
+                </div>
+
+                <div class="edit-input">
+                    <label asp-for="Phone">Phone</label>
+                    <input asp-for="Phone" type="text" value="@Model.Phone" placeholder="(111) 111-1111"><br>
+                </div>
+
+                <div class="edit-alert">
+					@Html.ValidationMessage("Phone")
+                </div>
+
+                <input type="hidden" asp-for="TechnicianId"/>
+
+                <div class="edit-btn">
+                    <button class="edit-save" type="submit">Save</button>
+                    <a asp-action="List">Cancel</a>
+                </div>
+            </form>
+        </div>
+    </div>
+</section>

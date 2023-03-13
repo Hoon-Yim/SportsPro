@@ -1,0 +1,70 @@
+﻿@using COMP2139_KRN_GENIUS.Models.ViewModels
+@model IQueryable<IncidentViewModel>
+@{
+    ViewData["Title"] = "Incident";
+
+    string Active(string filter)
+    {
+        return (ViewBag.Active == filter) ? "active" : "";
+    }
+}
+
+<section id="list">
+    <div id="list-page">
+        <div class="list-title">
+            <h1>Incident Manager</h1>
+        </div>
+
+        <div class="list-btn">
+            <a asp-area="" asp-controller="Incident" asp-action="Add"><span></span>Add Incident</a>
+        </div>
+
+        <div class="list-filter-btn">
+            <a asp-area="" asp-controller="Incident" asp-action="List" id="@Active("all")"><span></span>All Incidents</a>
+            <a asp-area="" asp-controller="Incident" asp-action="List" asp-route-activeFilter="unassigned" id="@Active("unassigned")"><span></span>Unassigned Incidents</a>
+            <a asp-area="" asp-controller="Incident" asp-action="List" asp-route-activeFilter="open" id="@Active("open")"><span></span>Open Incidents</a>
+        </div>
+
+            @if(TempData["message"] != null)
+            {
+                <div class="action-alert">
+                    <div class="action-alert-desc">
+                        @TempData["message"]
+                    </div>
+                </div>
+            }
+
+        <div class="list-table">
+            <table>
+                <thead>
+                    <tr>
+                        <th width="30%">Title</th>
+                        <th width="15%">Customer</th>
+                        <th width="25%">Product</th>
+                        <th width="15%">Date Opened</th>
+                        <th width="25%">Action</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    @foreach (var element in Model)
+                    {
+				        <tr>
+					        <td>@element.Incident.Title</td>
+					        <td>@element.CustomerName</td>
+					        <td>@element.ProductName</td>
+					        <td>@element.DateOpened?.ToString("MMMM dd, yyyy")</td>
+                            <td class="action-sec">
+                                <div class="action-btn">
+						            <a asp-controller="Incident" asp-action="Edit" asp-route-id="@element.Incident.IncidentId"><span></span>Edit</a>
+                                </div>
+						        <div class="action-btn action-btn-del">
+                                    <a asp-controller="Incident" asp-action="Delete" asp-route-id="@element.Incident.IncidentId"><span></span>Delete</a>
+                                </div>
+					        </td>
+				        </tr>
+                    }
+                </tbody>
+            </table>
+        </div>
+    </div>
+</section>

@@ -1,0 +1,45 @@
+﻿@model Technician 
+@{
+    ViewData["Title"] = "Delete Technician";
+}
+
+<section id="delete">
+    <div id="delete-page">
+        <div class="delete-title">
+            <h1>Delete Technician</h1>
+            <h6>! Please check the information that you're trying to delete !</h6>
+        </div>
+        <div class="delete-table">
+            <table>
+                <thead>
+                    <tr>
+                        <th>Name</th>
+                        <th>Email</th>
+                        <th>Phone</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>@Model.Name</td>
+                        <td>@Model.Email</td>
+                        <td>@Model.Phone</td>
+                    </tr>
+                </tbody>
+            </table>
+
+            <div class="delete-form">
+                <form asp-action="Delete" method="POST">
+                    <input type="hidden" asp-for="TechnicianId" />
+                    <input type="hidden" asp-for="Name" value="@Model.Name" />
+                    <div class="delete-sec">
+                        <h2>Are you sure?</h2>
+                        <div class="delete-btn">
+                            <button type="submit" class="delete-del">Delete</button>
+                            <a asp-action="List">Cancel</a>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</section>

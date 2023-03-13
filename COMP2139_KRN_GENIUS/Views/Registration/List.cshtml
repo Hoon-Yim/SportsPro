@@ -1,0 +1,83 @@
+﻿@using COMP2139_KRN_GENIUS.Models.ViewModels
+@model RegistrationViewModel
+@{
+    ViewData["Title"] = $"{Model.CustomerName} Registration";
+}
+
+<section id="list">
+    <div id="list-page">
+        <div class="list-title">
+            <h1>Registration Manager</h1>
+            <h2>
+                CUSTOMER : <b>@Model.CustomerName</b>
+			</h2>
+        </div>
+        @if(TempData["productMessage"] != null)
+        {
+            <div class="action-alert">
+                <div class="action-alert-desc">
+                    @TempData["productMessage"]
+                </div>
+            </div>
+        }
+        <div class="sub-list-table">
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Product</th>
+                            <th width="10%">Action</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                    @if (Model.Registrations.Count == 0)
+                    {
+                        <tr>
+                            <td colspan="2"><b>There is no opened incident ...</b></td>
+                        </tr>
+                    }
+                    else
+                    {
+                        @foreach (var registration in Model.Registrations)
+                        {
+                            <tr>
+                                <td>@registration.Product.Name</td>
+                                <td class="sub-action-sec">
+                                    <div class="action-btn action-btn-del">
+                                        <a asp-controller="Registration" asp-action="Delete" asp-route-id="@registration.ProductId"><span></span>Delete</a>
+                                    </div>
+                                </td>
+                            </tr>
+                        }
+                    }
+                </tbody>
+				</table>
+			</div>
+
+        <div class="sub-edit-form">
+            @if(TempData["message"] != null)
+            {
+                <div class="action-alert-warning">
+                    <div class="action-alert-warning-desc">
+                        @TempData["message"]
+                    </div>
+                </div>
+            }
+            <form asp-action="Register" method="POST">
+                <div class="edit-input">
+                    <select asp-for="Registration.ProductId">
+                        <option value="0">Select a Product..</option>
+                        @foreach (var product in Model.Products)
+                        {
+							<option value="@product.ProductId">@product.Name</option>
+                        }
+                    </select><br>
+                    <input type="hidden" asp-for="Registration.CustomerId"/>
+                </div>
+                <div class="edit-btn">
+                    <button type="submit">Register</button>
+                </div>
+            </form>
+        </div>
+
+    </div>
+</section>

@@ -9,4 +9,4 @@ Backend: C# ASP.NET, Entity Framework Core, MSSQL, Azure SQL Server<br/>
 Frontend: ASP.NET Razor
 
 ### Deployment
-Deployed using Azure App Service and Azure SQL Server
+Deployed using AWS EC2, AWS Elastic Beanstalk, and AWS RDS.
